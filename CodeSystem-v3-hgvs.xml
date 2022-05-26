@@ -10,7 +10,7 @@
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.840.1.113883.6.282"/>
   </identifier>
-  <version value="0.2.0"/>
+  <version value="0.1.0"/>
   <name value="Hgvs"/>
   <title value="Human Genome Variation Society nomenclature"/>
   <status value="active"/>
@@ -21,7 +21,7 @@
     <name value="NCPI FHIR Working Group"/>
     <telecom>
       <system value="url"/>
-      <value value="https://github.com/nih-ncpi"/>
+      <value value="https://github.com/ncpi-fhir"/>
     </telecom>
   </contact>
   <contact>

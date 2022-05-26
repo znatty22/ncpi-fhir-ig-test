@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/ResearchStudy/research-study-cmg> a fhir:ResearchStudy;
+<https://ncpi-fhir.github.io/ncpi-fhir-ig/ResearchStudy/research-study-cmg> a fhir:ResearchStudy;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "research-study-cmg"];
   fhir:DomainResource.text [
@@ -36,7 +36,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/ResearchStudy/research-study-cmg.ttl> a owl:Ontology;
+<https://ncpi-fhir.github.io/ncpi-fhir-ig/ResearchStudy/research-study-cmg.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

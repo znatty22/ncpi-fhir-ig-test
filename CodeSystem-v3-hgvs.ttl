@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/CodeSystem/v3-hgvs> a fhir:CodeSystem;
+<https://ncpi-fhir.github.io/ncpi-fhir-ig/CodeSystem/v3-hgvs> a fhir:CodeSystem;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "v3-hgvs"];
   fhir:DomainResource.text [
@@ -18,7 +18,7 @@
      fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ];
      fhir:Identifier.value [ fhir:value "urn:oid:2.16.840.1.113883.6.282" ]
   ];
-  fhir:CodeSystem.version [ fhir:value "0.2.0"];
+  fhir:CodeSystem.version [ fhir:value "0.1.0"];
   fhir:CodeSystem.name [ fhir:value "Hgvs"];
   fhir:CodeSystem.title [ fhir:value "Human Genome Variation Society nomenclature"];
   fhir:CodeSystem.status [ fhir:value "active"];
@@ -31,7 +31,7 @@
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "url" ];
-       fhir:ContactPoint.value [ fhir:value "https://github.com/nih-ncpi" ]
+       fhir:ContactPoint.value [ fhir:value "https://github.com/ncpi-fhir" ]
      ]
   ], [
      fhir:index 1;
@@ -322,7 +322,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/CodeSystem/v3-hgvs.ttl> a owl:Ontology;
+<https://ncpi-fhir.github.io/ncpi-fhir-ig/CodeSystem/v3-hgvs.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

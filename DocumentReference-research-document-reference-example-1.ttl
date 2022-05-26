@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/DocumentReference/research-document-reference-example-1> a fhir:DocumentReference;
+<https://ncpi-fhir.github.io/ncpi-fhir-ig/DocumentReference/research-document-reference-example-1> a fhir:DocumentReference;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "research-document-reference-example-1"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/ncpi-research-document-reference";
+       fhir:value "https://ncpi-fhir.github.io/ncpi-fhir-ig/StructureDefinition/ncpi-research-document-reference";
        fhir:index 0;
-       fhir:link <https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/ncpi-research-document-reference>
+       fhir:link <https://ncpi-fhir.github.io/ncpi-fhir-ig/StructureDefinition/ncpi-research-document-reference>
      ]
   ];
   fhir:DomainResource.text [
@@ -21,11 +21,11 @@
   ];
   fhir:DocumentReference.status [ fhir:value "current"];
   fhir:DocumentReference.subject [
-     fhir:link <https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/Patient/patient-example-3>;
+     fhir:link <https://ncpi-fhir.github.io/ncpi-fhir-ig/Patient/patient-example-3>;
      fhir:Reference.reference [ fhir:value "Patient/patient-example-3" ]
   ];
   fhir:DocumentReference.custodian [
-     fhir:link <https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/Organization/organization-example-1>;
+     fhir:link <https://ncpi-fhir.github.io/ncpi-fhir-ig/Organization/organization-example-1>;
      fhir:Reference.reference [ fhir:value "Organization/organization-example-1" ]
   ];
   fhir:DocumentReference.content [
@@ -37,14 +37,14 @@
   fhir:DocumentReference.context [
      fhir:DocumentReference.context.related [
        fhir:index 0;
-       fhir:link <https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/Task/task-example-2>;
+       fhir:link <https://ncpi-fhir.github.io/ncpi-fhir-ig/Task/task-example-2>;
        fhir:Reference.reference [ fhir:value "Task/task-example-2" ]
      ]
   ] .
 
 # - ontology header ------------------------------------------------------------
 
-<https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/DocumentReference/research-document-reference-example-1.ttl> a owl:Ontology;
+<https://ncpi-fhir.github.io/ncpi-fhir-ig/DocumentReference/research-document-reference-example-1.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/phenotype> a fhir:StructureDefinition;
+<https://ncpi-fhir.github.io/ncpi-fhir-ig/StructureDefinition/phenotype> a fhir:StructureDefinition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "phenotype"];
   fhir:DomainResource.text [
@@ -21,12 +21,12 @@
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category" ];
      fhir:Extension.valueCode [ fhir:value "patient" ]
   ];
-  fhir:StructureDefinition.url [ fhir:value "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/phenotype"];
-  fhir:StructureDefinition.version [ fhir:value "0.2.0"];
+  fhir:StructureDefinition.url [ fhir:value "https://ncpi-fhir.github.io/ncpi-fhir-ig/StructureDefinition/phenotype"];
+  fhir:StructureDefinition.version [ fhir:value "0.1.0"];
   fhir:StructureDefinition.name [ fhir:value "Phenotype"];
   fhir:StructureDefinition.title [ fhir:value "NCPI Phenotype"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
-  fhir:StructureDefinition.date [ fhir:value "2022-05-26T12:34:56-05:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-12-13T19:24:22+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "NCPI FHIR Working Group"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
@@ -34,7 +34,7 @@
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "url" ];
-       fhir:ContactPoint.value [ fhir:value "https://github.com/nih-ncpi" ]
+       fhir:ContactPoint.value [ fhir:value "https://github.com/ncpi-fhir" ]
      ]
   ], [
      fhir:index 1;
@@ -941,8 +941,8 @@
        fhir:ElementDefinition.binding [
          fhir:ElementDefinition.binding.strength [ fhir:value "required" ];
          fhir:ElementDefinition.binding.valueSet [
-           fhir:value "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/ValueSet/phenotype-codes";
-           fhir:link <https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/ValueSet/phenotype-codes>
+           fhir:value "https://ncpi-fhir.github.io/ncpi-fhir-ig/ValueSet/phenotype-codes";
+           fhir:link <https://ncpi-fhir.github.io/ncpi-fhir-ig/ValueSet/phenotype-codes>
          ]
        ];
        fhir:ElementDefinition.mapping [
@@ -1451,11 +1451,7 @@
          fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
          fhir:ElementDefinition.constraint.human [ fhir:value "Stage SHALL have summary or assessment" ];
          fhir:ElementDefinition.constraint.expression [ fhir:value "summary.exists() or assessment.exists()" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "exists(f:summary) or exists(f:assessment)" ];
-         fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Condition";
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Condition>
-         ]
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "exists(f:summary) or exists(f:assessment)" ]
        ], [
          fhir:index 1;
          fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
@@ -1810,11 +1806,7 @@
          fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
          fhir:ElementDefinition.constraint.human [ fhir:value "evidence SHALL have code or details" ];
          fhir:ElementDefinition.constraint.expression [ fhir:value "code.exists() or detail.exists()" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "exists(f:code) or exists(f:detail)" ];
-         fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Condition";
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Condition>
-         ]
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "exists(f:code) or exists(f:detail)" ]
        ], [
          fhir:index 1;
          fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
@@ -2154,8 +2146,8 @@
        fhir:ElementDefinition.binding [
          fhir:ElementDefinition.binding.strength [ fhir:value "required" ];
          fhir:ElementDefinition.binding.valueSet [
-           fhir:value "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/ValueSet/phenotype-codes";
-           fhir:link <https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/ValueSet/phenotype-codes>
+           fhir:value "https://ncpi-fhir.github.io/ncpi-fhir-ig/ValueSet/phenotype-codes";
+           fhir:link <https://ncpi-fhir.github.io/ncpi-fhir-ig/ValueSet/phenotype-codes>
          ]
        ]
      ]
@@ -2163,7 +2155,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/phenotype.ttl> a owl:Ontology;
+<https://ncpi-fhir.github.io/ncpi-fhir-ig/StructureDefinition/phenotype.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
