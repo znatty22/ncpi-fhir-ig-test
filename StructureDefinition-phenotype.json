@@ -15,12 +15,12 @@
       "valueCode": "patient"
     }
   ],
-  "url": "https://ncpi-fhir.github.io/ncpi-fhir-ig/StructureDefinition/phenotype",
-  "version": "0.1.0",
+  "url": "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/phenotype",
+  "version": "0.2.0",
   "name": "Phenotype",
   "title": "NCPI Phenotype",
   "status": "draft",
-  "date": "2021-12-13T19:24:22+00:00",
+  "date": "2022-05-26T12:34:56-05:00",
   "publisher": "NCPI FHIR Working Group",
   "contact": [
     {
@@ -28,7 +28,7 @@
       "telecom": [
         {
           "system": "url",
-          "value": "https://github.com/ncpi-fhir"
+          "value": "https://github.com/nih-ncpi"
         }
       ]
     },
@@ -869,7 +869,7 @@
         "isSummary": true,
         "binding": {
           "strength": "required",
-          "valueSet": "https://ncpi-fhir.github.io/ncpi-fhir-ig/ValueSet/phenotype-codes"
+          "valueSet": "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/ValueSet/phenotype-codes"
         },
         "mapping": [
           {
@@ -1346,7 +1346,8 @@
             "severity": "error",
             "human": "Stage SHALL have summary or assessment",
             "expression": "summary.exists() or assessment.exists()",
-            "xpath": "exists(f:summary) or exists(f:assessment)"
+            "xpath": "exists(f:summary) or exists(f:assessment)",
+            "source": "http://hl7.org/fhir/StructureDefinition/Condition"
           },
           {
             "key": "ele-1",
@@ -1675,7 +1676,8 @@
             "severity": "error",
             "human": "evidence SHALL have code or details",
             "expression": "code.exists() or detail.exists()",
-            "xpath": "exists(f:code) or exists(f:detail)"
+            "xpath": "exists(f:code) or exists(f:detail)",
+            "source": "http://hl7.org/fhir/StructureDefinition/Condition"
           },
           {
             "key": "ele-1",
@@ -1996,7 +1998,7 @@
         "path": "Condition.code",
         "binding": {
           "strength": "required",
-          "valueSet": "https://ncpi-fhir.github.io/ncpi-fhir-ig/ValueSet/phenotype-codes"
+          "valueSet": "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/ValueSet/phenotype-codes"
         }
       }
     ]

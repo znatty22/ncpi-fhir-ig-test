@@ -5,13 +5,13 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-omim.html\"><code>https://omim.org/</code></a></li><li>Include all codes defined in <a href=\"CodeSystem-mondo.html\"><code>http://purl.obolibrary.org/obo/mondo.owl</code></a></li><li>Include all codes defined in <a href=\"CodeSystem-ncit.html\"><code>http://purl.obolibrary.org/obo/ncit.owl</code></a></li></ul></div>"
   },
-  "url": "https://ncpi-fhir.github.io/ncpi-fhir-ig/ValueSet/disease-codes",
-  "version": "0.1.0",
+  "url": "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/ValueSet/disease-codes",
+  "version": "0.2.0",
   "name": "DiseaseCodes",
   "title": "Disease Codes",
   "status": "draft",
   "experimental": false,
-  "date": "2021-12-13T19:24:22+00:00",
+  "date": "2022-05-26T12:34:56-05:00",
   "publisher": "NCPI FHIR Working Group",
   "contact": [
     {
@@ -19,7 +19,7 @@
       "telecom": [
         {
           "system": "url",
-          "value": "https://github.com/ncpi-fhir"
+          "value": "https://github.com/nih-ncpi"
         }
       ]
     },

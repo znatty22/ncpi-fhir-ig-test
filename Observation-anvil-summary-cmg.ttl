@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://ncpi-fhir.github.io/ncpi-fhir-ig/Observation/anvil-summary-cmg> a fhir:Observation;
+<https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/Observation/anvil-summary-cmg> a fhir:Observation;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "anvil-summary-cmg"];
   fhir:DomainResource.text [
@@ -23,7 +23,7 @@
   ];
   fhir:Observation.focus [
      fhir:index 0;
-     fhir:link <https://ncpi-fhir.github.io/ncpi-fhir-ig/ResearchStudy/research-study-cmg>;
+     fhir:link <https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/ResearchStudy/research-study-cmg>;
      fhir:Reference.reference [ fhir:value "ResearchStudy/research-study-cmg" ]
   ];
   fhir:Observation.component [
@@ -76,7 +76,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://ncpi-fhir.github.io/ncpi-fhir-ig/Observation/anvil-summary-cmg.ttl> a owl:Ontology;
+<https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/Observation/anvil-summary-cmg.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
