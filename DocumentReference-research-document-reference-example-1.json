@@ -3,7 +3,7 @@
   "id": "research-document-reference-example-1",
   "meta": {
     "profile": [
-      "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/ncpi-research-document-reference"
+      "https://nih-ncpi.github.io/ncpi-fhir-ig/StructureDefinition/ncpi-research-document-reference"
     ]
   },
   "text": {

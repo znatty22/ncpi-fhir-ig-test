@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/CodeSystem/v3-hgvs> a fhir:CodeSystem;
+<https://nih-ncpi.github.io/ncpi-fhir-ig/CodeSystem/v3-hgvs> a fhir:CodeSystem;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "v3-hgvs"];
   fhir:DomainResource.text [
@@ -322,7 +322,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/CodeSystem/v3-hgvs.ttl> a owl:Ontology;
+<https://nih-ncpi.github.io/ncpi-fhir-ig/CodeSystem/v3-hgvs.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

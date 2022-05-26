@@ -3,14 +3,14 @@
   "id": "NCPI-FHIR-Implementation-Guide",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>NCPIFHIRImplementationGuide</h2><p>The official URL for this implementation guide is: </p><pre>https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/ImplementationGuide/NCPI-FHIR-Implementation-Guide</pre><div><p>FHIR Implementation Guide for the NIH Cloud Platform Interoperability Effort (NCPI).</p>\n</div></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>NCPIFHIRImplementationGuide</h2><p>The official URL for this implementation guide is: </p><pre>https://nih-ncpi.github.io/ncpi-fhir-ig/ImplementationGuide/NCPI-FHIR-Implementation-Guide</pre><div><p>FHIR Implementation Guide for the NIH Cloud Platform Interoperability Effort (NCPI).</p>\n</div></div>"
   },
-  "url": "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/ImplementationGuide/NCPI-FHIR-Implementation-Guide",
+  "url": "https://nih-ncpi.github.io/ncpi-fhir-ig/ImplementationGuide/NCPI-FHIR-Implementation-Guide",
   "version": "0.2.0",
   "name": "NCPIFHIRImplementationGuide",
   "title": "NCPI FHIR Implementation Guide",
   "status": "draft",
-  "date": "2022-05-26T18:08:08+00:00",
+  "date": "2022-05-26T18:29:57+00:00",
   "publisher": "NCPI FHIR Working Group",
   "contact": [
     {
@@ -167,7 +167,7 @@
           },
           {
             "url": "value",
-            "valueString": "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/history.html"
+            "valueString": "https://nih-ncpi.github.io/ncpi-fhir-ig/history.html"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -747,7 +747,7 @@
         },
         "name": "disease-example-1",
         "description": "Example of the representation of Disease.",
-        "exampleCanonical": "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/disease"
+        "exampleCanonical": "https://nih-ncpi.github.io/ncpi-fhir-ig/StructureDefinition/disease"
       },
       {
         "extension": [
@@ -761,7 +761,7 @@
         },
         "name": "drs-document-reference-example-1",
         "description": "Example of the representation of DRS Document Reference.",
-        "exampleCanonical": "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/ncpi-drs-document-reference"
+        "exampleCanonical": "https://nih-ncpi.github.io/ncpi-fhir-ig/StructureDefinition/ncpi-drs-document-reference"
       },
       {
         "extension": [
@@ -775,7 +775,7 @@
         },
         "name": "family-relationship-example-1",
         "description": "Example of the representation of Family Relationship.",
-        "exampleCanonical": "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/family-relationship"
+        "exampleCanonical": "https://nih-ncpi.github.io/ncpi-fhir-ig/StructureDefinition/family-relationship"
       },
       {
         "extension": [
@@ -789,7 +789,7 @@
         },
         "name": "family-relationship-example-2",
         "description": "Example of the representation of Family Relationship.",
-        "exampleCanonical": "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/family-relationship"
+        "exampleCanonical": "https://nih-ncpi.github.io/ncpi-fhir-ig/StructureDefinition/family-relationship"
       },
       {
         "extension": [
@@ -803,7 +803,7 @@
         },
         "name": "family-relationship-example-3",
         "description": "Example of the representation of Family Relationship.",
-        "exampleCanonical": "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/family-relationship"
+        "exampleCanonical": "https://nih-ncpi.github.io/ncpi-fhir-ig/StructureDefinition/family-relationship"
       },
       {
         "extension": [
@@ -817,7 +817,7 @@
         },
         "name": "family-relationship-example-4",
         "description": "Example of the representation of Family Relationship.",
-        "exampleCanonical": "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/family-relationship"
+        "exampleCanonical": "https://nih-ncpi.github.io/ncpi-fhir-ig/StructureDefinition/family-relationship"
       },
       {
         "extension": [
@@ -887,7 +887,7 @@
         },
         "name": "phenotype-example-1",
         "description": "Example of the representation of observed Phenotype.",
-        "exampleCanonical": "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/phenotype"
+        "exampleCanonical": "https://nih-ncpi.github.io/ncpi-fhir-ig/StructureDefinition/phenotype"
       },
       {
         "extension": [
@@ -929,7 +929,7 @@
         },
         "name": "research-document-reference-example-1",
         "description": "Example of the representation of Research Document Reference.",
-        "exampleCanonical": "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/ncpi-research-document-reference"
+        "exampleCanonical": "https://nih-ncpi.github.io/ncpi-fhir-ig/StructureDefinition/ncpi-research-document-reference"
       },
       {
         "extension": [
@@ -1055,7 +1055,7 @@
         },
         "name": "task-example-2",
         "description": "Example of the representation of Task that points to a ResearchDocumentReference.",
-        "exampleCanonical": "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/ncpi-specimen-task"
+        "exampleCanonical": "https://nih-ncpi.github.io/ncpi-fhir-ig/StructureDefinition/ncpi-specimen-task"
       },
       {
         "extension": [
@@ -1085,11 +1085,6 @@
         {
           "nameUrl": "authors.html",
           "title": "Authors",
-          "generation": "markdown"
-        },
-        {
-          "nameUrl": "background.html",
-          "title": "Background",
           "generation": "markdown"
         },
         {

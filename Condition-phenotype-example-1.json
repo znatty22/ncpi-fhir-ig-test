@@ -3,7 +3,7 @@
   "id": "phenotype-example-1",
   "meta": {
     "profile": [
-      "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/phenotype"
+      "https://nih-ncpi.github.io/ncpi-fhir-ig/StructureDefinition/phenotype"
     ]
   },
   "text": {

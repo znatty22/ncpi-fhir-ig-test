@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/phenotype> a fhir:StructureDefinition;
+<https://nih-ncpi.github.io/ncpi-fhir-ig/StructureDefinition/phenotype> a fhir:StructureDefinition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "phenotype"];
   fhir:DomainResource.text [
@@ -21,12 +21,12 @@
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category" ];
      fhir:Extension.valueCode [ fhir:value "patient" ]
   ];
-  fhir:StructureDefinition.url [ fhir:value "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/phenotype"];
+  fhir:StructureDefinition.url [ fhir:value "https://nih-ncpi.github.io/ncpi-fhir-ig/StructureDefinition/phenotype"];
   fhir:StructureDefinition.version [ fhir:value "0.2.0"];
   fhir:StructureDefinition.name [ fhir:value "Phenotype"];
   fhir:StructureDefinition.title [ fhir:value "NCPI Phenotype"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
-  fhir:StructureDefinition.date [ fhir:value "2022-05-26T18:08:08+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-05-26T18:29:57+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "NCPI FHIR Working Group"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
@@ -941,8 +941,8 @@
        fhir:ElementDefinition.binding [
          fhir:ElementDefinition.binding.strength [ fhir:value "required" ];
          fhir:ElementDefinition.binding.valueSet [
-           fhir:value "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/ValueSet/phenotype-codes";
-           fhir:link <https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/ValueSet/phenotype-codes>
+           fhir:value "https://nih-ncpi.github.io/ncpi-fhir-ig/ValueSet/phenotype-codes";
+           fhir:link <https://nih-ncpi.github.io/ncpi-fhir-ig/ValueSet/phenotype-codes>
          ]
        ];
        fhir:ElementDefinition.mapping [
@@ -2154,8 +2154,8 @@
        fhir:ElementDefinition.binding [
          fhir:ElementDefinition.binding.strength [ fhir:value "required" ];
          fhir:ElementDefinition.binding.valueSet [
-           fhir:value "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/ValueSet/phenotype-codes";
-           fhir:link <https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/ValueSet/phenotype-codes>
+           fhir:value "https://nih-ncpi.github.io/ncpi-fhir-ig/ValueSet/phenotype-codes";
+           fhir:link <https://nih-ncpi.github.io/ncpi-fhir-ig/ValueSet/phenotype-codes>
          ]
        ]
      ]
@@ -2163,7 +2163,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/phenotype.ttl> a owl:Ontology;
+<https://nih-ncpi.github.io/ncpi-fhir-ig/StructureDefinition/phenotype.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

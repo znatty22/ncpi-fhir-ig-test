@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/ValueSet/tbd-codes> a fhir:ValueSet;
+<https://nih-ncpi.github.io/ncpi-fhir-ig/ValueSet/tbd-codes> a fhir:ValueSet;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "tbd-codes"];
   fhir:Resource.meta [
@@ -60,7 +60,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/ValueSet/tbd-codes.ttl> a owl:Ontology;
+<https://nih-ncpi.github.io/ncpi-fhir-ig/ValueSet/tbd-codes.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

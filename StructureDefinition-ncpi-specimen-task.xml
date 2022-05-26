@@ -15,12 +15,12 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category">
     <valueCode value="not-classified"/>
   </extension>
-  <url value="https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/ncpi-specimen-task"/>
+  <url value="https://nih-ncpi.github.io/ncpi-fhir-ig/StructureDefinition/ncpi-specimen-task"/>
   <version value="0.2.0"/>
   <name value="SpecimenTask"/>
   <title value="Research Task"/>
   <status value="draft"/>
-  <date value="2022-05-26T18:08:08+00:00"/>
+  <date value="2022-05-26T18:29:57+00:00"/>
   <publisher value="NCPI FHIR Working Group"/>
   <contact>
     <name value="NCPI FHIR Working Group"/>

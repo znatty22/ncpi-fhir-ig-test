@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/Observation/diagnostic-implication-1> a fhir:Observation;
+<https://nih-ncpi.github.io/ncpi-fhir-ig/Observation/diagnostic-implication-1> a fhir:Observation;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "diagnostic-implication-1"];
   fhir:DomainResource.text [
@@ -32,7 +32,7 @@
   ];
   fhir:Observation.derivedFrom [
      fhir:index 0;
-     fhir:link <https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/Observation/variant-example-1>;
+     fhir:link <https://nih-ncpi.github.io/ncpi-fhir-ig/Observation/variant-example-1>;
      fhir:Reference.reference [ fhir:value "Observation/variant-example-1" ]
   ];
   fhir:Observation.component [
@@ -77,7 +77,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/Observation/diagnostic-implication-1.ttl> a owl:Ontology;
+<https://nih-ncpi.github.io/ncpi-fhir-ig/Observation/diagnostic-implication-1.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

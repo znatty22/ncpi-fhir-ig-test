@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/ResearchStudy/research-study-phs000711> a fhir:ResearchStudy;
+<https://nih-ncpi.github.io/ncpi-fhir-ig/ResearchStudy/research-study-phs000711> a fhir:ResearchStudy;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "research-study-phs000711"];
   fhir:DomainResource.text [
@@ -15,7 +15,7 @@
   fhir:ResearchStudy.title [ fhir:value "Baylor Hopkins Center for Mendelian Genomics (BH CMG)"];
   fhir:ResearchStudy.partOf [
      fhir:index 0;
-     fhir:link <https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/ResearchStudy/research-study-cmg>;
+     fhir:link <https://nih-ncpi.github.io/ncpi-fhir-ig/ResearchStudy/research-study-cmg>;
      fhir:Reference.reference [ fhir:value "ResearchStudy/research-study-cmg" ]
   ];
   fhir:ResearchStudy.status [ fhir:value "completed"];
@@ -41,7 +41,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/ResearchStudy/research-study-phs000711.ttl> a owl:Ontology;
+<https://nih-ncpi.github.io/ncpi-fhir-ig/ResearchStudy/research-study-phs000711.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

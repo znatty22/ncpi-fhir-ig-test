@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/ResearchStudy/research-study-example-1> a fhir:ResearchStudy;
+<https://nih-ncpi.github.io/ncpi-fhir-ig/ResearchStudy/research-study-example-1> a fhir:ResearchStudy;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "research-study-example-1"];
   fhir:DomainResource.text [
@@ -15,13 +15,13 @@
   fhir:ResearchStudy.title [ fhir:value "NCPI Research Study Example 1"];
   fhir:ResearchStudy.status [ fhir:value "completed"];
   fhir:ResearchStudy.principalInvestigator [
-     fhir:link <https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/PractitionerRole/practitioner-role-example-1>;
+     fhir:link <https://nih-ncpi.github.io/ncpi-fhir-ig/PractitionerRole/practitioner-role-example-1>;
      fhir:Reference.reference [ fhir:value "PractitionerRole/practitioner-role-example-1" ]
   ] .
 
 # - ontology header ------------------------------------------------------------
 
-<https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/ResearchStudy/research-study-example-1.ttl> a owl:Ontology;
+<https://nih-ncpi.github.io/ncpi-fhir-ig/ResearchStudy/research-study-example-1.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

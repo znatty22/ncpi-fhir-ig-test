@@ -15,12 +15,12 @@
       "valueCode": "not-classified"
     }
   ],
-  "url": "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/ncpi-specimen-task",
+  "url": "https://nih-ncpi.github.io/ncpi-fhir-ig/StructureDefinition/ncpi-specimen-task",
   "version": "0.2.0",
   "name": "SpecimenTask",
   "title": "Research Task",
   "status": "draft",
-  "date": "2022-05-26T18:08:08+00:00",
+  "date": "2022-05-26T18:29:57+00:00",
   "publisher": "NCPI FHIR Working Group",
   "contact": [
     {

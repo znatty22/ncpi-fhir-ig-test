@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/Condition/phenotype-example-1> a fhir:Condition;
+<https://nih-ncpi.github.io/ncpi-fhir-ig/Condition/phenotype-example-1> a fhir:Condition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "phenotype-example-1"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/phenotype";
+       fhir:value "https://nih-ncpi.github.io/ncpi-fhir-ig/StructureDefinition/phenotype";
        fhir:index 0;
-       fhir:link <https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/phenotype>
+       fhir:link <https://nih-ncpi.github.io/ncpi-fhir-ig/StructureDefinition/phenotype>
      ]
   ];
   fhir:DomainResource.text [
@@ -37,7 +37,7 @@
      fhir:CodeableConcept.text [ fhir:value "Present: Vesicoureteral reflux" ]
   ];
   fhir:Condition.subject [
-     fhir:link <https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/Patient/patient-example-1>;
+     fhir:link <https://nih-ncpi.github.io/ncpi-fhir-ig/Patient/patient-example-1>;
      fhir:Reference.reference [ fhir:value "Patient/patient-example-1" ]
   ];
   fhir:Condition.recordedDate [
@@ -47,7 +47,7 @@
          fhir:index 0;
          fhir:Extension.url [ fhir:value "target" ];
          fhir:Extension.valueReference [
-           fhir:link <https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/Patient/patient-example-1>;
+           fhir:link <https://nih-ncpi.github.io/ncpi-fhir-ig/Patient/patient-example-1>;
            fhir:Reference.reference [ fhir:value "Patient/patient-example-1" ]
          ]
        ], [
@@ -74,7 +74,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/Condition/phenotype-example-1.ttl> a owl:Ontology;
+<https://nih-ncpi.github.io/ncpi-fhir-ig/Condition/phenotype-example-1.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

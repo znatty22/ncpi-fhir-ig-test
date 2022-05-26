@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/Organization/organization-example-1> a fhir:Organization;
+<https://nih-ncpi.github.io/ncpi-fhir-ig/Organization/organization-example-1> a fhir:Organization;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "organization-example-1"];
   fhir:DomainResource.text [
@@ -47,7 +47,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/Organization/organization-example-1.ttl> a owl:Ontology;
+<https://nih-ncpi.github.io/ncpi-fhir-ig/Organization/organization-example-1.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

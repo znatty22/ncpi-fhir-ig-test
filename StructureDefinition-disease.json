@@ -15,12 +15,12 @@
       "valueCode": "patient"
     }
   ],
-  "url": "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/disease",
+  "url": "https://nih-ncpi.github.io/ncpi-fhir-ig/StructureDefinition/disease",
   "version": "0.2.0",
   "name": "Disease",
   "title": "NCPI Disease",
   "status": "draft",
-  "date": "2022-05-26T18:08:08+00:00",
+  "date": "2022-05-26T18:29:57+00:00",
   "publisher": "NCPI FHIR Working Group",
   "contact": [
     {
@@ -869,7 +869,7 @@
         "isSummary": true,
         "binding": {
           "strength": "extensible",
-          "valueSet": "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/ValueSet/disease-codes"
+          "valueSet": "https://nih-ncpi.github.io/ncpi-fhir-ig/ValueSet/disease-codes"
         },
         "mapping": [
           {
@@ -1998,7 +1998,7 @@
         "path": "Condition.code",
         "binding": {
           "strength": "extensible",
-          "valueSet": "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/ValueSet/disease-codes"
+          "valueSet": "https://nih-ncpi.github.io/ncpi-fhir-ig/ValueSet/disease-codes"
         }
       }
     ]

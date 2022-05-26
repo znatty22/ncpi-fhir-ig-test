@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/Observation/anvil-summary-phs000711> a fhir:Observation;
+<https://nih-ncpi.github.io/ncpi-fhir-ig/Observation/anvil-summary-phs000711> a fhir:Observation;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "anvil-summary-phs000711"];
   fhir:DomainResource.text [
@@ -23,7 +23,7 @@
   ];
   fhir:Observation.focus [
      fhir:index 0;
-     fhir:link <https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/ResearchStudy/research-study-phs000711>;
+     fhir:link <https://nih-ncpi.github.io/ncpi-fhir-ig/ResearchStudy/research-study-phs000711>;
      fhir:Reference.reference [ fhir:value "ResearchStudy/research-study-phs000711" ]
   ];
   fhir:Observation.component [
@@ -124,7 +124,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/Observation/anvil-summary-phs000711.ttl> a owl:Ontology;
+<https://nih-ncpi.github.io/ncpi-fhir-ig/Observation/anvil-summary-phs000711.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

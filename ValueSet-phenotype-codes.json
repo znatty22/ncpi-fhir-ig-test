@@ -5,13 +5,13 @@
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-hpo.html\"><code>http://purl.obolibrary.org/obo/hp.owl</code></a></li></ul></div>"
   },
-  "url": "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/ValueSet/phenotype-codes",
+  "url": "https://nih-ncpi.github.io/ncpi-fhir-ig/ValueSet/phenotype-codes",
   "version": "0.2.0",
   "name": "PhenotypeCodes",
   "title": "Phenotype Codes",
   "status": "draft",
   "experimental": false,
-  "date": "2022-05-26T18:08:08+00:00",
+  "date": "2022-05-26T18:29:57+00:00",
   "publisher": "NCPI FHIR Working Group",
   "contact": [
     {

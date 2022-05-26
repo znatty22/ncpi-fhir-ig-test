@@ -3,7 +3,7 @@
   "id": "disease-example-1",
   "meta": {
     "profile": [
-      "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/disease"
+      "https://nih-ncpi.github.io/ncpi-fhir-ig/StructureDefinition/disease"
     ]
   },
   "text": {

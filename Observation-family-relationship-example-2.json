@@ -3,7 +3,7 @@
   "id": "family-relationship-example-2",
   "meta": {
     "profile": [
-      "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/family-relationship"
+      "https://nih-ncpi.github.io/ncpi-fhir-ig/StructureDefinition/family-relationship"
     ]
   },
   "text": {

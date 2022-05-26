@@ -15,12 +15,12 @@
       "valueCode": "patient"
     }
   ],
-  "url": "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/phenotype",
+  "url": "https://nih-ncpi.github.io/ncpi-fhir-ig/StructureDefinition/phenotype",
   "version": "0.2.0",
   "name": "Phenotype",
   "title": "NCPI Phenotype",
   "status": "draft",
-  "date": "2022-05-26T18:08:08+00:00",
+  "date": "2022-05-26T18:29:57+00:00",
   "publisher": "NCPI FHIR Working Group",
   "contact": [
     {
@@ -869,7 +869,7 @@
         "isSummary": true,
         "binding": {
           "strength": "required",
-          "valueSet": "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/ValueSet/phenotype-codes"
+          "valueSet": "https://nih-ncpi.github.io/ncpi-fhir-ig/ValueSet/phenotype-codes"
         },
         "mapping": [
           {
@@ -1998,7 +1998,7 @@
         "path": "Condition.code",
         "binding": {
           "strength": "required",
-          "valueSet": "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/ValueSet/phenotype-codes"
+          "valueSet": "https://nih-ncpi.github.io/ncpi-fhir-ig/ValueSet/phenotype-codes"
         }
       }
     ]

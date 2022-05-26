@@ -3,7 +3,7 @@
   "id": "task-example-2",
   "meta": {
     "profile": [
-      "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/ncpi-specimen-task"
+      "https://nih-ncpi.github.io/ncpi-fhir-ig/StructureDefinition/ncpi-specimen-task"
     ]
   },
   "text": {

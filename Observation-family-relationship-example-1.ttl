@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/Observation/family-relationship-example-1> a fhir:Observation;
+<https://nih-ncpi.github.io/ncpi-fhir-ig/Observation/family-relationship-example-1> a fhir:Observation;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "family-relationship-example-1"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/family-relationship";
+       fhir:value "https://nih-ncpi.github.io/ncpi-fhir-ig/StructureDefinition/family-relationship";
        fhir:index 0;
-       fhir:link <https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/family-relationship>
+       fhir:link <https://nih-ncpi.github.io/ncpi-fhir-ig/StructureDefinition/family-relationship>
      ]
   ];
   fhir:DomainResource.text [
@@ -29,12 +29,12 @@
      ]
   ];
   fhir:Observation.subject [
-     fhir:link <https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/Patient/patient-example-1>;
+     fhir:link <https://nih-ncpi.github.io/ncpi-fhir-ig/Patient/patient-example-1>;
      fhir:Reference.reference [ fhir:value "Patient/patient-example-1" ]
   ];
   fhir:Observation.focus [
      fhir:index 0;
-     fhir:link <https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/Patient/patient-example-2>;
+     fhir:link <https://nih-ncpi.github.io/ncpi-fhir-ig/Patient/patient-example-2>;
      fhir:Reference.reference [ fhir:value "Patient/patient-example-2" ]
   ];
   fhir:Observation.valueCodeableConcept [
@@ -49,7 +49,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/Observation/family-relationship-example-1.ttl> a owl:Ontology;
+<https://nih-ncpi.github.io/ncpi-fhir-ig/Observation/family-relationship-example-1.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

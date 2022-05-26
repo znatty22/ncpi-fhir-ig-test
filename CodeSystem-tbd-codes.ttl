@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/CodeSystem/tbd-codes> a fhir:CodeSystem;
+<https://nih-ncpi.github.io/ncpi-fhir-ig/CodeSystem/tbd-codes> a fhir:CodeSystem;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "tbd-codes"];
   fhir:DomainResource.text [
@@ -137,7 +137,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/CodeSystem/tbd-codes.ttl> a owl:Ontology;
+<https://nih-ncpi.github.io/ncpi-fhir-ig/CodeSystem/tbd-codes.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

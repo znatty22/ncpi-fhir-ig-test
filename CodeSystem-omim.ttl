@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/CodeSystem/omim> a fhir:CodeSystem;
+<https://nih-ncpi.github.io/ncpi-fhir-ig/CodeSystem/omim> a fhir:CodeSystem;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "omim"];
   fhir:DomainResource.text [
@@ -18,7 +18,7 @@
   fhir:CodeSystem.title [ fhir:value "Online Mendelian Inheritance in Man"];
   fhir:CodeSystem.status [ fhir:value "draft"];
   fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:CodeSystem.date [ fhir:value "2022-05-26T18:08:08+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-05-26T18:29:57+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "NCPI FHIR Working Group"];
   fhir:CodeSystem.contact [
      fhir:index 0;
@@ -2038,7 +2038,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/CodeSystem/omim.ttl> a owl:Ontology;
+<https://nih-ncpi.github.io/ncpi-fhir-ig/CodeSystem/omim.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

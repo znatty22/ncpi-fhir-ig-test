@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/Specimen/specimen-example-1> a fhir:Specimen;
+<https://nih-ncpi.github.io/ncpi-fhir-ig/Specimen/specimen-example-1> a fhir:Specimen;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "specimen-example-1"];
   fhir:DomainResource.text [
@@ -23,7 +23,7 @@
      fhir:CodeableConcept.text [ fhir:value "Solid Tissue" ]
   ];
   fhir:Specimen.subject [
-     fhir:link <https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/Patient/patient-example-1>;
+     fhir:link <https://nih-ncpi.github.io/ncpi-fhir-ig/Patient/patient-example-1>;
      fhir:Reference.reference [ fhir:value "Patient/patient-example-1" ]
   ];
   fhir:Specimen.receivedTime [
@@ -33,7 +33,7 @@
          fhir:index 0;
          fhir:Extension.url [ fhir:value "target" ];
          fhir:Extension.valueReference [
-           fhir:link <https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/Patient/patient-example-1>;
+           fhir:link <https://nih-ncpi.github.io/ncpi-fhir-ig/Patient/patient-example-1>;
            fhir:Reference.reference [ fhir:value "Patient/patient-example-1" ]
          ]
        ], [
@@ -65,7 +65,7 @@
            fhir:index 0;
            fhir:Extension.url [ fhir:value "target" ];
            fhir:Extension.valueReference [
-             fhir:link <https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/Patient/patient-example-1>;
+             fhir:link <https://nih-ncpi.github.io/ncpi-fhir-ig/Patient/patient-example-1>;
              fhir:Reference.reference [ fhir:value "Patient/patient-example-1" ]
            ]
          ], [
@@ -118,7 +118,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/Specimen/specimen-example-1.ttl> a owl:Ontology;
+<https://nih-ncpi.github.io/ncpi-fhir-ig/Specimen/specimen-example-1.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

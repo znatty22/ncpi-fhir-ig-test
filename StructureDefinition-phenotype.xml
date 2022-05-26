@@ -13,12 +13,12 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category">
     <valueCode value="patient"/>
   </extension>
-  <url value="https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/phenotype"/>
+  <url value="https://nih-ncpi.github.io/ncpi-fhir-ig/StructureDefinition/phenotype"/>
   <version value="0.2.0"/>
   <name value="Phenotype"/>
   <title value="NCPI Phenotype"/>
   <status value="draft"/>
-  <date value="2022-05-26T18:08:08+00:00"/>
+  <date value="2022-05-26T18:29:57+00:00"/>
   <publisher value="NCPI FHIR Working Group"/>
   <contact>
     <name value="NCPI FHIR Working Group"/>
@@ -727,7 +727,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="required"/>
-        <valueSet value="https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/ValueSet/phenotype-codes"/>
+        <valueSet value="https://nih-ncpi.github.io/ncpi-fhir-ig/ValueSet/phenotype-codes"/>
       </binding>
       <mapping>
         <identity value="workflow"/>
@@ -1646,7 +1646,7 @@
       <path value="Condition.code"/>
       <binding>
         <strength value="required"/>
-        <valueSet value="https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/ValueSet/phenotype-codes"/>
+        <valueSet value="https://nih-ncpi.github.io/ncpi-fhir-ig/ValueSet/phenotype-codes"/>
       </binding>
     </element>
   </differential>

@@ -45,116 +45,116 @@
     ]
   },
   {
+    "id": "ncpi",
+    "type": "CodeSystem",
+    "url": "https://nih-ncpi.github.io/ncpi-fhir-ig",
+    "version": "0.2.0",
+    "name": "Ncpi"
+  },
+  {
     "id": "ConditionInheritanceMode",
     "type": "CodeSystem",
-    "url": "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/CodeSystem/ConditionInheritanceMode",
+    "url": "https://nih-ncpi.github.io/ncpi-fhir-ig/CodeSystem/ConditionInheritanceMode",
     "version": "0.2.0",
     "name": "ConditionInheritanceMode"
   },
   {
     "id": "NCPI-FHIR-Implementation-Guide",
     "type": "ImplementationGuide",
-    "url": "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/ImplementationGuide/NCPI-FHIR-Implementation-Guide",
+    "url": "https://nih-ncpi.github.io/ncpi-fhir-ig/ImplementationGuide/NCPI-FHIR-Implementation-Guide",
     "version": "0.2.0",
     "name": "NCPIFHIRImplementationGuide"
   },
   {
     "id": "disease",
     "type": "StructureDefinition",
-    "url": "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/disease",
+    "url": "https://nih-ncpi.github.io/ncpi-fhir-ig/StructureDefinition/disease",
     "version": "0.2.0",
     "name": "Disease"
   },
   {
     "id": "family-relationship",
     "type": "StructureDefinition",
-    "url": "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/family-relationship",
+    "url": "https://nih-ncpi.github.io/ncpi-fhir-ig/StructureDefinition/family-relationship",
     "version": "0.2.0",
     "name": "FamilyRelationship"
   },
   {
     "id": "ncpi-drs-attachment",
     "type": "StructureDefinition",
-    "url": "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/ncpi-drs-attachment",
+    "url": "https://nih-ncpi.github.io/ncpi-fhir-ig/StructureDefinition/ncpi-drs-attachment",
     "version": "0.2.0",
     "name": "DRSAttachment"
   },
   {
     "id": "ncpi-drs-document-reference",
     "type": "StructureDefinition",
-    "url": "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/ncpi-drs-document-reference",
+    "url": "https://nih-ncpi.github.io/ncpi-fhir-ig/StructureDefinition/ncpi-drs-document-reference",
     "version": "0.2.0",
     "name": "DRSDocumentReference"
   },
   {
     "id": "ncpi-research-document-reference",
     "type": "StructureDefinition",
-    "url": "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/ncpi-research-document-reference",
+    "url": "https://nih-ncpi.github.io/ncpi-fhir-ig/StructureDefinition/ncpi-research-document-reference",
     "version": "0.2.0",
     "name": "ResearchDocumentReference"
   },
   {
     "id": "ncpi-specimen-task",
     "type": "StructureDefinition",
-    "url": "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/ncpi-specimen-task",
+    "url": "https://nih-ncpi.github.io/ncpi-fhir-ig/StructureDefinition/ncpi-specimen-task",
     "version": "0.2.0",
     "name": "SpecimenTask"
   },
   {
     "id": "phenotype",
     "type": "StructureDefinition",
-    "url": "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/phenotype",
+    "url": "https://nih-ncpi.github.io/ncpi-fhir-ig/StructureDefinition/phenotype",
     "version": "0.2.0",
     "name": "Phenotype"
   },
   {
     "id": "supporting-info",
     "type": "StructureDefinition",
-    "url": "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/supporting-info",
+    "url": "https://nih-ncpi.github.io/ncpi-fhir-ig/StructureDefinition/supporting-info",
     "version": "0.2.0",
     "name": "SupportingInformation"
   },
   {
     "id": "condition-inheritance-vs",
     "type": "ValueSet",
-    "url": "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/ValueSet/condition-inheritance-vs",
+    "url": "https://nih-ncpi.github.io/ncpi-fhir-ig/ValueSet/condition-inheritance-vs",
     "version": "0.2.0",
     "name": "ConditionInheritanceModeVS"
   },
   {
     "id": "disease-codes",
     "type": "ValueSet",
-    "url": "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/ValueSet/disease-codes",
+    "url": "https://nih-ncpi.github.io/ncpi-fhir-ig/ValueSet/disease-codes",
     "version": "0.2.0",
     "name": "DiseaseCodes"
   },
   {
     "id": "loinc-answers",
     "type": "ValueSet",
-    "url": "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/ValueSet/loinc-answers",
+    "url": "https://nih-ncpi.github.io/ncpi-fhir-ig/ValueSet/loinc-answers",
     "version": "0.2.0",
     "name": "LoincAnswers"
   },
   {
     "id": "ncpi-vs",
     "type": "ValueSet",
-    "url": "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/ValueSet/ncpi-vs",
+    "url": "https://nih-ncpi.github.io/ncpi-fhir-ig/ValueSet/ncpi-vs",
     "version": "0.2.0",
     "name": "Ncpi_VS"
   },
   {
     "id": "phenotype-codes",
     "type": "ValueSet",
-    "url": "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/ValueSet/phenotype-codes",
+    "url": "https://nih-ncpi.github.io/ncpi-fhir-ig/ValueSet/phenotype-codes",
     "version": "0.2.0",
     "name": "PhenotypeCodes"
-  },
-  {
-    "id": "ncpi",
-    "type": "CodeSystem",
-    "url": "https://nih-ncpi.github.io/ncpi-fhir-ig",
-    "version": "0.2.0",
-    "name": "Ncpi"
   },
   {
     "id": "ncpi-data-types",

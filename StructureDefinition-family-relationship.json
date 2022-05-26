@@ -15,12 +15,12 @@
       "valueCode": "patient"
     }
   ],
-  "url": "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/family-relationship",
+  "url": "https://nih-ncpi.github.io/ncpi-fhir-ig/StructureDefinition/family-relationship",
   "version": "0.2.0",
   "name": "FamilyRelationship",
   "title": "NCPI Family Relationship",
   "status": "draft",
-  "date": "2022-05-26T18:08:08+00:00",
+  "date": "2022-05-26T18:29:57+00:00",
   "publisher": "NCPI FHIR Working Group",
   "contact": [
     {

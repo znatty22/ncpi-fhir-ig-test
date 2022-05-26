@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/ResearchSubject/research-subject-example-1> a fhir:ResearchSubject;
+<https://nih-ncpi.github.io/ncpi-fhir-ig/ResearchSubject/research-subject-example-1> a fhir:ResearchSubject;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "research-subject-example-1"];
   fhir:DomainResource.text [
@@ -14,17 +14,17 @@
   ];
   fhir:ResearchSubject.status [ fhir:value "on-study"];
   fhir:ResearchSubject.study [
-     fhir:link <https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/ResearchStudy/research-study-example-1>;
+     fhir:link <https://nih-ncpi.github.io/ncpi-fhir-ig/ResearchStudy/research-study-example-1>;
      fhir:Reference.reference [ fhir:value "ResearchStudy/research-study-example-1" ]
   ];
   fhir:ResearchSubject.individual [
-     fhir:link <https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/Patient/patient-example-1>;
+     fhir:link <https://nih-ncpi.github.io/ncpi-fhir-ig/Patient/patient-example-1>;
      fhir:Reference.reference [ fhir:value "Patient/patient-example-1" ]
   ] .
 
 # - ontology header ------------------------------------------------------------
 
-<https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/ResearchSubject/research-subject-example-1.ttl> a owl:Ontology;
+<https://nih-ncpi.github.io/ncpi-fhir-ig/ResearchSubject/research-subject-example-1.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/Task/task-example-2> a fhir:Task;
+<https://nih-ncpi.github.io/ncpi-fhir-ig/Task/task-example-2> a fhir:Task;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "task-example-2"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/ncpi-specimen-task";
+       fhir:value "https://nih-ncpi.github.io/ncpi-fhir-ig/StructureDefinition/ncpi-specimen-task";
        fhir:index 0;
-       fhir:link <https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/ncpi-specimen-task>
+       fhir:link <https://nih-ncpi.github.io/ncpi-fhir-ig/StructureDefinition/ncpi-specimen-task>
      ]
   ];
   fhir:DomainResource.text [
@@ -22,15 +22,15 @@
   fhir:Task.status [ fhir:value "completed"];
   fhir:Task.intent [ fhir:value "order"];
   fhir:Task.focus [
-     fhir:link <https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/Specimen/specimen-example-1>;
+     fhir:link <https://nih-ncpi.github.io/ncpi-fhir-ig/Specimen/specimen-example-1>;
      fhir:Reference.reference [ fhir:value "Specimen/specimen-example-1" ]
   ];
   fhir:Task.for [
-     fhir:link <https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/Patient/patient-example-3>;
+     fhir:link <https://nih-ncpi.github.io/ncpi-fhir-ig/Patient/patient-example-3>;
      fhir:Reference.reference [ fhir:value "Patient/patient-example-3" ]
   ];
   fhir:Task.owner [
-     fhir:link <https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/Organization/organization-example-1>;
+     fhir:link <https://nih-ncpi.github.io/ncpi-fhir-ig/Organization/organization-example-1>;
      fhir:Reference.reference [ fhir:value "Organization/organization-example-1" ]
   ];
   fhir:Task.input [
@@ -39,7 +39,7 @@
        fhir:CodeableConcept.text [ fhir:value "Specimen" ]
      ];
      fhir:Task.input.valueReference [
-       fhir:link <https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/Specimen/specimen-example-1>;
+       fhir:link <https://nih-ncpi.github.io/ncpi-fhir-ig/Specimen/specimen-example-1>;
        fhir:Reference.reference [ fhir:value "Specimen/specimen-example-1" ]
      ]
   ];
@@ -49,14 +49,14 @@
        fhir:CodeableConcept.text [ fhir:value "DocumentReference" ]
      ];
      fhir:Task.output.valueReference [
-       fhir:link <https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/DocumentReference/research-document-reference-example-1>;
+       fhir:link <https://nih-ncpi.github.io/ncpi-fhir-ig/DocumentReference/research-document-reference-example-1>;
        fhir:Reference.reference [ fhir:value "DocumentReference/research-document-reference-example-1" ]
      ]
   ] .
 
 # - ontology header ------------------------------------------------------------
 
-<https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/Task/task-example-2.ttl> a owl:Ontology;
+<https://nih-ncpi.github.io/ncpi-fhir-ig/Task/task-example-2.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
