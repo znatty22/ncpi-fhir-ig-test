@@ -3,21 +3,21 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="NCPI-FHIR-Implementation-Guide"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>NCPIFHIRImplementationGuide</h2><p>The official URL for this implementation guide is: </p><pre>https://ncpi-fhir.github.io/ncpi-fhir-ig/ImplementationGuide/NCPI-FHIR-Implementation-Guide</pre><div><p>FHIR Implementation Guide for the NIH Cloud Platform Interoperability Effort (NCPI).</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>NCPIFHIRImplementationGuide</h2><p>The official URL for this implementation guide is: </p><pre>https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/ImplementationGuide/NCPI-FHIR-Implementation-Guide</pre><div><p>FHIR Implementation Guide for the NIH Cloud Platform Interoperability Effort (NCPI).</p>
 </div></div>
   </text>
-  <url value="https://ncpi-fhir.github.io/ncpi-fhir-ig/ImplementationGuide/NCPI-FHIR-Implementation-Guide"/>
-  <version value="0.1.0"/>
+  <url value="https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/ImplementationGuide/NCPI-FHIR-Implementation-Guide"/>
+  <version value="0.2.0"/>
   <name value="NCPIFHIRImplementationGuide"/>
   <title value="NCPI FHIR Implementation Guide"/>
   <status value="draft"/>
-  <date value="2021-12-13T19:24:22+00:00"/>
+  <date value="2022-05-26T18:07:50+00:00"/>
   <publisher value="NCPI FHIR Working Group"/>
   <contact>
     <name value="NCPI FHIR Working Group"/>
     <telecom>
       <system value="url"/>
-      <value value="https://github.com/ncpi-fhir"/>
+      <value value="https://github.com/nih-ncpi"/>
     </telecom>
   </contact>
   <contact>
@@ -32,6 +32,11 @@
   <packageId value="NCPI-FHIR-Implementation-Guide"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
+  <dependsOn id="hl7tx">
+    <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
+    <packageId value="hl7.terminology.r4"/>
+    <version value="3.1.0"/>
+  </dependsOn>
   <dependsOn id="hl7_fhir_us_core">
     <uri value="http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core"/>
     <packageId value="hl7.fhir.us.core"/>
@@ -107,7 +112,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="https://ncpi-fhir.github.io/ncpi-fhir-ig/history.html"/>
+        <valueString value="https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -185,6 +190,30 @@
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
         <valueString value="active-tables"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="fmm-definition"/>
+      </extension>
+      <extension url="value">
+        <valueString value="http://hl7.org/fhir/versions.html#maturity"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="propagate-status"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="excludelogbinaryformat"/>
       </extension>
       <extension url="value">
         <valueString value="true"/>
@@ -297,7 +326,7 @@
         <reference value="ValueSet/disease-codes"/>
       </reference>
       <name value="Disease Codes"/>
-      <description value="This value set includes all codes from this FHIR server&#39;s representation of OMIM, Mondo and NICt CodeSystems."/>
+      <description value="This value set includes all codes from this FHIR server's representation of OMIM, Mondo and NICt CodeSystems."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -396,7 +425,7 @@
         <reference value="CodeSystem/mondo"/>
       </reference>
       <name value="Mondo Disease Ontology"/>
-      <description value="The Mondo Disease Ontology (Mondo) aims to harmonize disease definitions across the world. The name Mondo comes from the latin word &#39;mundus&#39; and means &#39;for the world.&#39;"/>
+      <description value="The Mondo Disease Ontology (Mondo) aims to harmonize disease definitions across the world. The name Mondo comes from the latin word 'mundus' and means 'for the world.'"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -450,8 +479,8 @@
       <reference>
         <reference value="CodeSystem/tbd-codes"/>
       </reference>
-      <name value="ToBeDeterminedCodes (&#39;TbdCodes&#39;)"/>
-      <description value="These codes are currently &#39;TBD-LOINC&#39; codes. The CG WG is requesting formal LOINC codes."/>
+      <name value="ToBeDeterminedCodes ('TbdCodes')"/>
+      <description value="These codes are currently 'TBD-LOINC' codes. The CG WG is requesting formal LOINC codes."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -507,7 +536,7 @@
       </reference>
       <name value="disease-example-1"/>
       <description value="Example of the representation of Disease."/>
-      <exampleCanonical value="https://ncpi-fhir.github.io/ncpi-fhir-ig/StructureDefinition/disease"/>
+      <exampleCanonical value="https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/disease"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -518,7 +547,7 @@
       </reference>
       <name value="drs-document-reference-example-1"/>
       <description value="Example of the representation of DRS Document Reference."/>
-      <exampleCanonical value="https://ncpi-fhir.github.io/ncpi-fhir-ig/StructureDefinition/ncpi-drs-document-reference"/>
+      <exampleCanonical value="https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/ncpi-drs-document-reference"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -529,7 +558,7 @@
       </reference>
       <name value="family-relationship-example-1"/>
       <description value="Example of the representation of Family Relationship."/>
-      <exampleCanonical value="https://ncpi-fhir.github.io/ncpi-fhir-ig/StructureDefinition/family-relationship"/>
+      <exampleCanonical value="https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/family-relationship"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -540,7 +569,7 @@
       </reference>
       <name value="family-relationship-example-2"/>
       <description value="Example of the representation of Family Relationship."/>
-      <exampleCanonical value="https://ncpi-fhir.github.io/ncpi-fhir-ig/StructureDefinition/family-relationship"/>
+      <exampleCanonical value="https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/family-relationship"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -551,7 +580,7 @@
       </reference>
       <name value="family-relationship-example-3"/>
       <description value="Example of the representation of Family Relationship."/>
-      <exampleCanonical value="https://ncpi-fhir.github.io/ncpi-fhir-ig/StructureDefinition/family-relationship"/>
+      <exampleCanonical value="https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/family-relationship"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -562,7 +591,7 @@
       </reference>
       <name value="family-relationship-example-4"/>
       <description value="Example of the representation of Family Relationship."/>
-      <exampleCanonical value="https://ncpi-fhir.github.io/ncpi-fhir-ig/StructureDefinition/family-relationship"/>
+      <exampleCanonical value="https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/family-relationship"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -617,7 +646,7 @@
       </reference>
       <name value="phenotype-example-1"/>
       <description value="Example of the representation of observed Phenotype."/>
-      <exampleCanonical value="https://ncpi-fhir.github.io/ncpi-fhir-ig/StructureDefinition/phenotype"/>
+      <exampleCanonical value="https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/phenotype"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -650,7 +679,7 @@
       </reference>
       <name value="research-document-reference-example-1"/>
       <description value="Example of the representation of Research Document Reference."/>
-      <exampleCanonical value="https://ncpi-fhir.github.io/ncpi-fhir-ig/StructureDefinition/ncpi-research-document-reference"/>
+      <exampleCanonical value="https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/ncpi-research-document-reference"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -749,7 +778,7 @@
       </reference>
       <name value="task-example-2"/>
       <description value="Example of the representation of Task that points to a ResearchDocumentReference."/>
-      <exampleCanonical value="https://ncpi-fhir.github.io/ncpi-fhir-ig/StructureDefinition/ncpi-specimen-task"/>
+      <exampleCanonical value="https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/ncpi-specimen-task"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -782,6 +811,11 @@
         <generation value="markdown"/>
       </page>
       <page>
+        <nameUrl value="childhood_cancer.html"/>
+        <title value="Childhood Cancer"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
         <nameUrl value="contact.html"/>
         <title value="Contact"/>
         <generation value="markdown"/>
@@ -792,8 +826,58 @@
         <generation value="markdown"/>
       </page>
       <page>
-        <nameUrl value="use_cases.html"/>
-        <title value="Use Cases"/>
+        <nameUrl value="ehr.html"/>
+        <title value="Ehr"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="family.html"/>
+        <title value="Family"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="files.html"/>
+        <title value="Files"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="finding_a_research_study.html"/>
+        <title value="Finding a Research Study"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="ncpi.html"/>
+        <title value="Ncpi"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="participant.html"/>
+        <title value="Participant"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="performing_a_genomic_analysis.html"/>
+        <title value="Performing a Genomic Analysis"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="rare_disease.html"/>
+        <title value="Rare Disease"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="research_study.html"/>
+        <title value="Research Study"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="tabular.html"/>
+        <title value="Tabular"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="using_source_data.html"/>
+        <title value="Using Source Data"/>
         <generation value="markdown"/>
       </page>
     </page>

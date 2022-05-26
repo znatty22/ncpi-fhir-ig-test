@@ -47,7 +47,13 @@
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">NCPI FHIR Implementation Guide</span><br/>0.1.0 - ci-build</p>
+          <p><span style="font-size:12pt;font-weight:bold">NCPI FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.2.0 - ci-build
+
+
+            </span>
+          </p>
         </div>
       </div> <!-- /container -->
     </div>  <!-- /segment-header -->
@@ -82,16 +88,63 @@
     </a>
     <ul class="dropdown-menu">
       <li>
-        <a href="background.html">NCPI FHIR</a>
+        <a href="ncpi.html">NCPI</a>
       </li>
       <li>
-        <a href="use_cases.html">Use Cases</a>
+        <a href="background.html">This IG</a>
       </li>
       <li>
         <a href="authors.html">Authors</a>
       </li>
       <li>
         <a href="contact.html">Contact</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Modules
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="research_study.html">Research Study Summary</a>
+      </li>
+      <li>
+        <a href="participant.html">Participant-level Data</a>
+      </li>
+      <li>
+        <a href="files.html">Assays and File Data</a>
+      </li>
+      <li>
+        <a href="tabular.html">Generic Tabular Data</a>
+      </li>
+      <li>
+        <a href="family.html">Family Relationships</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Use Case Guides
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="finding_a_research_study.html">Finding a Research Study</a>
+      </li>
+      <li>
+        <a href="performing_a_genomic_analysis.html">Genomic Analysis</a>
+      </li>
+      <li>
+        <a href="rare_disease.html">Rare Disease</a>
+      </li>
+      <li>
+        <a href="childhood_cancer.html">Childhood Cancer</a>
+      </li>
+      <li>
+        <a href="using_source_data.html">Using "Source" Data</a>
+      </li>
+      <li>
+        <a href="ehr.html">EHR Data</a>
       </li>
     </ul>
   </li>
@@ -143,9 +196,12 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">NCPI FHIR Implementation Guide - Local Development build (v0.1.0). See the <a href="https://ncpi-fhir.github.io/ncpi-fhir-ig/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">NCPI FHIR Implementation Guide - Local Development build (v0.2.0). See the <a href="https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Background</h2>
   
+
+
+
 
 
 
@@ -159,29 +215,44 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <div class="markdown-toc">
 <ul id="markdown-toc">
   <li><a href="#overview" id="markdown-toc-overview">Overview</a></li>
-  <li><a href="#fhir-relevance" id="markdown-toc-fhir-relevance">FHIR Relevance</a></li>
+  <li><a href="#organization" id="markdown-toc-organization">Organization</a></li>
 </ul>
 
 </div>
-
 <h3 id="overview">Overview</h3>
 
-<p>The <a href="https://anvilproject.org/ncpi">NIH Cloud Platform Interoperability effort</a> is a collaboration about several NIH-funded platforms for cloud data analysis. Identifying a set of common use cases and a vision of better supporting researchers, these groups have been working towards making data more FAIR among these NIH projects. The NCPI FHIR Working Group has taken on the task of promoting interoperability of Clinical and Phenotypic Data and Study Metadata through the use of FHIR.</p>
+<p>Data sharing is key to reproducible science. However, if the data cannot be shared in a robust, low cost manner can we effectively claim to enable reproducible science?</p>
 
-<p><img width="100%" src="background-overview.png" alt="background-overview" /></p>
+<p>The aim of this effort is to produce a shared view of research structure and semantics to accelerate the scientific process and reduce impediments needed to share knowledge among researchers. FHIR has the ability to uniformly represent structure and semantics and make the data available and searchable.</p>
 
-<h3 id="fhir-relevance">FHIR Relevance</h3>
+<p>This is a marked improvement over the status quo where data consumers need to contact the authors and implement an ad hoc process for access and consumption.</p>
 
-<p>One of the major problems with making clinical and phenotype data available to the research community is the lack of universal standards for representing and transmitting this data. This variability creates challenges at every phase of the research process as there is overhead even to simply move the data from one task to another if it’s expected to be interpreted.</p>
+<p>Our ImplementationGuide defines the structure of a study using the following Resource Types (Entities).  Your project will contain instances of these resource types, tagged with your identifiers and described by a defined vocabulary of CodableConcepts.</p>
 
-<p><img width="100%" src="overview-of-data-flow.png" alt="overview-of-data-flow" /></p>
+<p><img width="100%" src="research-study-structure.png" alt="research-study-structure" /></p>
 
-<p>While there are standards and common data models, such as OMOP, that do allow for common representations, the source systems do not typically use them, and there are many local customization aspects that are challenging to merge.</p>
+<h3 id="organization">Organization</h3>
 
-<p>FHIR presents an opportunity to make clinical and phenotypic data robustly available over APIs to the broader research community. The NCPI partners represent several of the best-equipped groups in the country to make this a reality for researchers, and alignment with dbGaP presents great opportunities for those continuing in existing models. This IG describes some ways in which FHIR can integrate with the current systems and what it can provide to supplement them and create opportunity for growth.</p>
+<p>This IG is organized in three components:</p>
+<ul>
+  <li>Profiles and Extensions</li>
+  <li>Modules</li>
+  <li>Use Cases</li>
+</ul>
 
-<p>FHIR provides a way to have end-to-end consistency by providing methods to keep data representations accurate from data providers through the platforms and to data users and by providing a structured way to manage vocabulary information.</p>
+<p>These components are intended to work together to more clearly describe the building blocks, how they interact, and how a user can leverage them. Not all NCPI platforms, studies, tools, or users will need or implement all of these building blocks, and different services may support different portions of this IG.</p>
 
+<h4 id="profiles-and-extensions">Profiles and Extensions</h4>
+
+<p>These are the raw building blocks implemented in FHIR that dictate how to construct resources to be compliant with this Implementation Guide. These elements detail the specific sematics expected to meet a common need in NCPI and are critical for technical implementation and validation.</p>
+
+<h4 id="modules">Modules</h4>
+
+<p>The modules represent the “generic circumstances” that an implementer may consider when building content leveraging this IG. They are intended to provide a mental model that enables discussion of several of the above elements at once in order to make more clear why the IG is constructed this way.</p>
+
+<h4 id="use-cases">Use Cases</h4>
+
+<p>Use cases are real-world, data-consumer-centric situations that describe what elements are required to be implemented and how an end-user can use those tools to solve their problem. These use cases are not exhaustive, but are intended to describe a breadth of scenarios that may help one implement or use the NCPI data.</p>
 
 
 
@@ -207,7 +278,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://github.com/ncpi-fhir">NCPI FHIR Working Group</a>.  Package NCPI-FHIR-Implementation-Guide#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Dec 13, 2021 19:24+0000">2021-12-13</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://github.com/nih-ncpi">NCPI FHIR Working Group</a>.  Package NCPI-FHIR-Implementation-Guide#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, May 26, 2022 18:07+0000">2022-05-26</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
@@ -232,6 +303,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
   <script type="text/javascript" src="assets/js/respond.min.js"> </script>
   <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
   <script>anchors.options.visible = 'hover'
 anchors.add()</script>
   

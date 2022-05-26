@@ -15,12 +15,12 @@
       "valueCode": "not-classified"
     }
   ],
-  "url": "https://ncpi-fhir.github.io/ncpi-fhir-ig/StructureDefinition/ncpi-specimen-task",
-  "version": "0.1.0",
+  "url": "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/ncpi-specimen-task",
+  "version": "0.2.0",
   "name": "SpecimenTask",
   "title": "Research Task",
   "status": "draft",
-  "date": "2021-12-13T19:24:22+00:00",
+  "date": "2022-05-26T18:07:50+00:00",
   "publisher": "NCPI FHIR Working Group",
   "contact": [
     {
@@ -28,7 +28,7 @@
       "telecom": [
         {
           "system": "url",
-          "value": "https://github.com/ncpi-fhir"
+          "value": "https://github.com/nih-ncpi"
         }
       ]
     },

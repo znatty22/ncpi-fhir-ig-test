@@ -6,18 +6,18 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://ncpi-fhir.github.io/ncpi-fhir-ig/DiagnosticReport/diagnostic-report-1> a fhir:DiagnosticReport;
+<https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/DiagnosticReport/diagnostic-report-1> a fhir:DiagnosticReport;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "diagnostic-report-1"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2><span title=\"Codes: {http://loinc.org 81247-9}\">Master HL7 genetic variant reporting panel</span> </h2><table class=\"grid\"><tr><td>Subject</td><td><b>Mariah Abigail Smith(OFFICIAL)</b> ?? 2019-06-15</td></tr></table><p><b>Report Details</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Value</b></td></tr><tr><td><a href=\"Observation-variant-example-1.html\"><span title=\"Codes: {http://loinc.org 69548-6}\">Genetic variant assessment</span></a></td><td><span title=\"Codes: {http://loinc.org LA9633-4}\">Present</span></td></tr><tr><td><a href=\"Observation-diagnostic-implication-1.html\"><span title=\"Codes: {http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes diagnostic-implication}\">Diagnostic Implication</span></a></td><td></td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2><span title=\"Codes: {http://loinc.org 81247-9}\">Master HL7 genetic variant reporting panel</span> </h2><table class=\"grid\"><tr><td>Subject</td><td><b>Mariah Abigail Smith(OFFICIAL)</b> female, DoB: 2019-06-15</td></tr></table><p><b>Report Details</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Value</b></td></tr><tr><td><a href=\"Observation-variant-example-1.html\"><span title=\"Codes: {http://loinc.org 69548-6}\">Genetic variant assessment</span></a></td><td><span title=\"Codes: {http://loinc.org LA9633-4}\">Present</span></td></tr><tr><td><a href=\"Observation-diagnostic-implication-1.html\"><span title=\"Codes: {http://hl7.org/fhir/uv/genomics-reporting/CodeSystem/tbd-codes diagnostic-implication}\">Diagnostic Implication</span></a></td><td></td></tr></table></div>"
   ];
   fhir:DomainResource.extension [
      fhir:index 0;
-     fhir:Extension.url [ fhir:value "https://ncpi-fhir.github.io/ncpi-fhir-ig/StructureDefinition/supporting-info" ];
+     fhir:Extension.url [ fhir:value "https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/StructureDefinition/supporting-info" ];
      fhir:Extension.valueReference [
-       fhir:link <https://ncpi-fhir.github.io/ncpi-fhir-ig/Task/task-example-1>;
+       fhir:link <https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/Task/task-example-1>;
        fhir:Reference.reference [ fhir:value "Task/task-example-1" ]
      ]
   ];
@@ -32,22 +32,22 @@
      ]
   ];
   fhir:DiagnosticReport.subject [
-     fhir:link <https://ncpi-fhir.github.io/ncpi-fhir-ig/Patient/patient-example-1>;
+     fhir:link <https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/Patient/patient-example-1>;
      fhir:Reference.reference [ fhir:value "Patient/patient-example-1" ]
   ];
   fhir:DiagnosticReport.result [
      fhir:index 0;
-     fhir:link <https://ncpi-fhir.github.io/ncpi-fhir-ig/Observation/variant-example-1>;
+     fhir:link <https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/Observation/variant-example-1>;
      fhir:Reference.reference [ fhir:value "Observation/variant-example-1" ]
   ], [
      fhir:index 1;
-     fhir:link <https://ncpi-fhir.github.io/ncpi-fhir-ig/Observation/diagnostic-implication-1>;
+     fhir:link <https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/Observation/diagnostic-implication-1>;
      fhir:Reference.reference [ fhir:value "Observation/diagnostic-implication-1" ]
   ] .
 
 # - ontology header ------------------------------------------------------------
 
-<https://ncpi-fhir.github.io/ncpi-fhir-ig/DiagnosticReport/diagnostic-report-1.ttl> a owl:Ontology;
+<https://ncpi-fhir.github.io/ncpi-fhir-ig-v02/DiagnosticReport/diagnostic-report-1.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
